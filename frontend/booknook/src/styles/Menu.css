@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Playwrite+AR:wght@100..400&display=swap');
+
+/*fonte que vai ser removida*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+.body #divMain {
+  max-height: 80px;
+  padding: 10px;
+  max-width: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: larger;
+  background-color: #D9D9D9;
+}
+
+/*NAVBAR*/
+.body .cabecario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin-top: -25px;
+}
+
+.conjuntoLista{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.conjuntoLista .lista {
+  display: inline-block;
+  margin:0 20px;
+  
+}
+
+#title #booknook {  
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  color: purple;
+}
+
+@media (max-width: 760px) {
+
+  .body .cabecario {
+    flex-direction: column;
+  }
+  .conjuntoLista {
+    text-align: center;
+  }
+}
+
+.buttons {
+  color: black;
+}
+
+a:hover {
+  color: blueviolet;
+  transition: 0.3s all;
+}
+
+#button-vendaJa {
+  border: 2px solid  black;
+  padding: 12px;
+  border-radius: 37px;
+  color: white;
+  background-color: #1E1E1E;
+ 
+}
+
+#button-vendaJa:hover {
+  background-color:blueviolet;
+  border-color: blueviolet;
+}
